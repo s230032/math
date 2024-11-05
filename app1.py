@@ -26,9 +26,9 @@ a = st.number_input('수를 입력하세요', value=a)
 
 # 버튼 생성 및 동작
 if st.button('양수일까 음수일까?'):
-if a > 0:
-st.write('양수입니다')
-elif a < 0:
-st.write('음수입니다')
-else:
-st.write('0입니다')
+ if a > 0:
+ st.write('양수입니다')
+ elif a < 0:
+ st.write('음수입니다')
+ else:
+ st.write('0입니다')
